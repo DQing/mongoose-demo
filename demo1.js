@@ -1,3 +1,7 @@
+/*
+*  连接数据库
+* */
+
 var mongoose = require('mongoose');
 var db = mongoose.createConnection('localhost', 'mongose');
 mongoose.Promise = global.Promise;
